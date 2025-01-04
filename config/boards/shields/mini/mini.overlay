@@ -8,7 +8,7 @@
         label = "default_kscan";
 
         input-gpios = 
-            <&GPIO_INPUT GP1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+            <&GPIO_INPUT P1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
     
 
     };
