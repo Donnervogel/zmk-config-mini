@@ -8,7 +8,7 @@
         compatible = "zmk,kscan-gpio-direct";
         label = "default_kscan";
 
-        input-gpios = {&pico-gpio 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)};
+        input-gpios = <&pico-gpio 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
     };
 
     
