@@ -1,5 +1,5 @@
 /dts-v1/;
-/ {
+/{
     chosen {
         zmk,kscan = &default_kscan;
     };
