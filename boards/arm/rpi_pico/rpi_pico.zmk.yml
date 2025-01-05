@@ -1,0 +1,9 @@
+file_format: "1"
+id: rpi_pico
+name: nice!nano v1
+type: board
+arch: arm
+features:
+  - keys
+outputs:
+  - usb
