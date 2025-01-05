@@ -16,7 +16,7 @@
 
 };
 
-/ {
+/{
     pico_gpio: gpio {
         compatible = "raspberrypi,pico-gpio";
         gpio-controller;
