@@ -1,6 +1,6 @@
 /dts-v1/;
-/{
-    chosen{
+/ {
+    chosen {
         zmk,kscan = &default_kscan;
     };
 
@@ -8,15 +8,9 @@
         compatible = "zmk,kscan-gpio-direct";
         label = "default_kscan";
 
-        input-gpios = 
-            <&pico_gpio P1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
-    
-
+        input-gpios = <&pico_gpio 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
     };
 
-};
-
-/{
     pico_gpio: gpio {
         compatible = "raspberrypi,pico-gpio";
         gpio-controller;
