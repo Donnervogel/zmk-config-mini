@@ -15,7 +15,8 @@
     };
 
 };
-&pico_gpio {
+
+/&pico_gpio {
     compatible = "raspberrypi,pico-gpio";
     gpio-controller;
     #gpio-cells = <2>;
