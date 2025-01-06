@@ -9,7 +9,7 @@
 #include "gpio.h"
 #include "rp2040_clock.h"
 #include "i2c.h"
-#include "reg_rpi_pico.h"
+#include "reg_rpi.h"
 #include "rp2040_reset.h"
 #include "mem.h"
 
