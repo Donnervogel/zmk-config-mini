@@ -13,7 +13,7 @@
 #include "rp2040_reset.h"
 #include "mem.h"
 
-#include <arm/raspberrypi/rpi_pico/override.dtsi>
+#include "override.dtsi"
 /*
  * This value can be overridden at the board level or in an application specific
  * override.dtsi file.
