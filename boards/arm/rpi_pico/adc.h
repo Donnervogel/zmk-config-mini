@@ -6,7 +6,7 @@
 #ifndef ZEPHYR_INCLUDE_DT_BINDINGS_ADC_ADC_H_
 #define ZEPHYR_INCLUDE_DT_BINDINGS_ADC_ADC_H_
 
-#include <zephyr/dt-bindings/dt-util.h>
+#include "dt-util.h"
 
 /** Acquisition time is expressed in microseconds. */
 #define ADC_ACQ_TIME_MICROSECONDS  (1)
