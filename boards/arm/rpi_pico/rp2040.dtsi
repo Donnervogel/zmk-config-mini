@@ -5,12 +5,12 @@
  */
 
 #include "arm/armv6-m.dtsi"
-#include <zephyr/dt-bindings/adc/adc.h>
-#include <zephyr/dt-bindings/gpio/gpio.h>
-#include <zephyr/dt-bindings/clock/rpi_pico_rp2040_clock.h>
-#include <zephyr/dt-bindings/i2c/i2c.h>
-#include <zephyr/dt-bindings/regulator/rpi_pico.h>
-#include <zephyr/dt-bindings/reset/rp2040_reset.h>
+#include "adc.h"
+#include "gpio.h"
+#include "rp2040_clock.h"
+#include "i2c.h"
+#include "reg_rpi_pico.h"
+#include "rp2040_reset.h"
 #include "mem.h"
 
 #include <arm/raspberrypi/rpi_pico/override.dtsi>
